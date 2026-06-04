@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 251, 255);
+}
+
+a > button{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    background: rgb(217, 246, 255);
+    color: black;
+    border: 2px solid rgb(131, 187, 204);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+div#container-img{
+    width: 400px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+div#container-img > img{
+    width: 300px;
+    height: auto;
+    margin-top: 10px; 
+}
+
+#container-desc{
+    border: 1px solid gray;
+    margin: 15px;
+    padding: 20px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#container-desc > p{
+    margin: 5px 0;
+    text-align: justify;
+}
+
+#container-desc > p.criador{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
